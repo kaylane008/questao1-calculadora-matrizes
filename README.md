@@ -28,13 +28,28 @@ O sistema apresenta as seguintes opcoes:
 - Online GDB
 - GitHub
 
-## 5. Como executar o programa
+## 5 Como executar
 
-1. Abrir o arquivo calculadora.c.
-2. Copiar o codigo para um compilador C.
-3. Compilar e executar o programa.
-4. Selecionar as opcoes apresentadas no menu.
+**Requisito:** ter um compilador C instalado (por exemplo, GCC).
 
+1. Baixe ou clone o repositório e abra a pasta no terminal.
+2. Compile o programa:
+
+   gcc calculadora.c -o calculadora -lm
+
+3. Execute:
+
+   - Linux ou Mac: `./calculadora`
+   - Windows: `calculadora.exe`
+
+4. Use o menu na ordem:
+   - Opção 1: informe a quantidade de matrizes (mínimo 2).
+   - Opção 2: informe as dimensões e os elementos de cada matriz.
+   - Opções 3 a 6: escolha a operação (soma, subtração, multiplicação ou divisão).
+   - Opção 7: veja novamente a matriz solução.
+   - Opção 0: encerrar.
+
+**Alternativa sem instalar nada:** copie o código do `calculadora.c` em um compilador online, como o onlinegdb.com, escolha a linguagem C e clique em Run.
 ## 6. Observacoes
 
 - Para soma e subtracao, as matrizes precisam possuir as mesmas dimensoes.
